@@ -34,6 +34,8 @@ pip install -r requirments.txt
 conda env create -f environment.yaml
 
 # install pyvips
+unzip ./install/pyvips.zip 
+
 sudo apt-get update
 sudo apt-get install libvips-dev -y --no-install-recommends --download-only -o dir::cache='./'
 
@@ -42,7 +44,7 @@ sudo mv ./archives/* ./libvips
 rm -rf ./archives
 ls ./libvips
 
-yes | sudo dpkg -i ./libvips/*.deb
+yes | sudo dpkg -i .install/pyvips/libvips/*.deb
 
 # pip
 pip install pyvips
