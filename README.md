@@ -20,17 +20,17 @@ DINO-ViT pretrained weight can be found in [this link](https://github.com/lunit-
 Figure 2
 </p>
 
-<p style="font-style: italic; font-family: 'Times New Roman'; font-size: 16px">
-Figure 2 | The visualization for ovarian cancer subtyping tasks is presented as follows:<br>
-a. The sequence of four images, from left to right, includes:<br>
-   1. A representative slide from the HGSC category, selected to generate corresponding visualization results.<br>
-   2. A whole-slide attention heatmap generated for each slide by calculating the attention scores for the HGSC class.<br>
-   3. Visualization merging representative slide images with their corresponding heatmap for the HGSC class.<br>
-   4. Patches with high attention scores from the representative slide effectively reflect the typical morphological features of the HGSC class.<br>
-b. The visualization results for the CCOC subtype in ovarian cancer are analogous to the four images in the first row, from left to right.<br>
-c. The visualization results for the LGSC subtype in ovarian cancer are analogous to the four images in the first row, from left to right.<br>
+*Figure 2* | The visualization for ovarian cancer subtyping tasks is presented as follows:
+
+a. The sequence of four images, from left to right, includes:  
+   1. A representative slide from the HGSC category, selected to generate corresponding visualization results.  
+   2. A whole-slide attention heatmap generated for each slide by calculating the attention scores for the HGSC class.  
+   3. Visualization merging representative slide images with their corresponding heatmap for the HGSC class.  
+   4. Patches with high attention scores from the representative slide effectively reflect the typical morphological features of the HGSC class.
+
+b. The visualization results for the CCOC subtype in ovarian cancer are analogous to the four images in the first row, from left to right.  
+c. The visualization results for the LGSC subtype in ovarian cancer are analogous to the four images in the first row, from left to right.  
 d. The visualization results for the ECOC subtype in ovarian cancer are analogous to the four images in the first row, from left to right.
-</p>
 
 
 
