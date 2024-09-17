@@ -33,6 +33,7 @@ We use RTX 4090 24G GPU for training and inference.
 
 ### software
 **System**: Ubuntu 22.04
+
 **Python and DeepLearning framwork** : python 3.10 and pytorch 2.1.2+cu118
 
 we provide both conda *environment.yaml* and *requirments.txt* for readers to reproduce our results.⬇
