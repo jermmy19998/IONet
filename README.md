@@ -107,6 +107,7 @@ run
 `sh ./shell.preprocess.sh`
 
 You may modify some paths before run preprocess.sh
+
 Behaviors: <br>
 
 0. make datafram for train
@@ -118,6 +119,7 @@ run
 `sh ./shells/train.sh`
 
 You may modify some paths before run preprocess.sh
+
 Behaviors: <br>
 
 0. train abmil patch size 16
@@ -129,9 +131,9 @@ Behaviors: <br>
 run 
 `./shells/infer.sh`
 You may modify some paths before run preprocess.sh
+
 Behaviors: <br>
 
 0. infer models with average weights
 
-to be update
 to be update
