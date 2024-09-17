@@ -35,40 +35,6 @@ We use RTX 4090 24G GPU for training and inference.
 **System**: Ubuntu 22.04
 **Python and DeepLearning framwork** : python 3.10 and pytorch 2.1.2+cu118
 
-### Data structure
-```bash
-├── logs
-│   └── train.log
-├── out_csv # 
-│   ├── df_train.csv
-│   └── df_test.csv
-├── preprocess
-│   ├── step0_make_df.py
-│   ├── step1_Patching.py
-│   └── step2_extract_features.py
-├── readme.md
-├── shells
-│   ├── infer.sh
-│   ├── preprocess.sh
-│   └── train.sh
-├── source
-    ├── dataset.py
-    ├── engine.py
-    ├── inference.py
-    ├── metrics.py
-    ├── model.py
-    ├── plot.py
-    ├── train.py
-    ├── utils.py
-    └── __pycache__
-        ├── dataset.cpython-310.pyc
-        ├── engine.cpython-310.pyc
-        ├── metrics.cpython-310.pyc
-        ├── model.cpython-310.pyc
-        ├── plot.cpython-310.pyc
-        └── utils.cpython-310.pyc
-
-```
 we provide both conda *environment.yaml* and *requirments.txt* for readers to reproduce our results.⬇
 
 run following command to create conda environment⬇️
@@ -135,5 +101,18 @@ You may modify some paths before run preprocess.sh
 Behaviors: <br>
 
 0. infer models with average weights
+
+## Generate heatmap
+run
+`sh ./shells/heatmap.sh`
+You may modify some paths before run preprocess.sh
+
+Behaviors: <br>
+
+0. generate heatmap
+
+
+to be update
+
 
 to be update
