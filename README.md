@@ -73,7 +73,7 @@ mv *.whl ./pyvips
 run
 `sh ./shell.preprocess.sh`
 
-You may modify some paths before run preprocess.sh
+***You may modify some paths before run shells***
 
 Behaviors: <br>
 
@@ -85,8 +85,6 @@ Behaviors: <br>
 run
 `sh ./shells/train.sh`
 
-You may modify some paths before run preprocess.sh
-
 Behaviors: <br>
 
 0. train abmil patch size 16
@@ -97,7 +95,6 @@ Behaviors: <br>
 ## Inference
 run 
 `./shells/infer.sh`
-You may modify some paths before run preprocess.sh
 
 Behaviors: <br>
 
@@ -106,7 +103,6 @@ Behaviors: <br>
 ## Generate heatmap
 run
 `sh ./shells/heatmap.sh`
-You may modify some paths before run preprocess.sh
 
 Behaviors: <br>
 
