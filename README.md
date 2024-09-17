@@ -102,5 +102,36 @@ pip wheel pyvips
 mkdir pyvips
 mv *.whl ./pyvips
 ```
+## Data pre-process
+run
+`sh ./shell.preprocess.sh`
 
+You may modify some paths before run preprocess.sh
+Behaviors: <br>
+
+0. make datafram for train
+1. make patches
+2. extract features
+
+## Training
+run
+`sh ./shells/train.sh`
+
+You may modify some paths before run preprocess.sh
+Behaviors: <br>
+
+0. train abmil patch size 16
+1. train abmil patch size 8
+2. train dsmil patch size 8
+3. train dsmil patch size 16
+
+## Inference
+run 
+`./shells/infer.sh`
+You may modify some paths before run preprocess.sh
+Behaviors: <br>
+
+0. infer models with average weights
+
+to be update
 to be update
