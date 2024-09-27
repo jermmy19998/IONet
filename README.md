@@ -10,7 +10,8 @@ Figure 1 | IONet's methodology begins by extracting 448x448 patches and selectin
 if you have any problems please contact ***wacto1998@gamil.com*** <br>
 DINO-ViT pretrained weight can be found in [this link](https://github.com/lunit-io/benchmark-ssl-pathology/releases/tag/pretrained-weights).
 
-![image](https://github.com/user-attachments/assets/2c860d7b-9e10-4d63-9154-a9afbcb61f6a)
+![image](https://github.com/user-attachments/assets/bfcd37f9-8e41-4c95-b20f-e19f8e735bec)
+
 
 <p style="font-style: italic; font-family: 'Times New Roman'; font-size: 16px">
 Figure 2 | The visualization for ovarian cancer subtyping tasks is presented as follows:<br>
